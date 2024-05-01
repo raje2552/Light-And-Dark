@@ -25,5 +25,3 @@ link.onclick = () =>{
 }   
      
 
-
-console.log(colorBackground)
