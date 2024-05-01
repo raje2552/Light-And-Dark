@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.container, #link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-color: rgb(18, 18, 18);
+    border: rgb(126, 126, 126) solid 2px;
+}
+header h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: 30px;
+    color:  rgb(255, 253, 113);
+    
+}
+
+nav {
+    background-color: rgb(255, 248, 220);
+    width: inherit;
+    min-height: 95vh;
+}
+#link{
+    width: 60px;
+    height: 60px;
+    border: solid black 2px;
+    border-radius: 50%;
+    background-image: url('../photo/market-01.jpg'); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#link p {
+    display: none;
+}
